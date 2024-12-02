@@ -1,27 +1,28 @@
 "use client";
 
-import { Send } from "lucide-react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import {
   Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
-  CardDescription,
-  CardContent,
-  CardFooter,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { useChat } from "ai/react";
-import { ScrollArea } from "./ui/scroll-area";
+import { Send } from "lucide-react";
 import MessageFormatter from "./MessageFormatter";
 import { ModeToggle } from "./Theme";
-import { Skeleton } from "@/components/ui/skeleton";
+import { ScrollArea } from "./ui/scroll-area";
 
 export interface ChatProps {}
 
 export function Chat(props: ChatProps) {
-  const { messages, input, handleInputChange, handleSubmit } = useChat();
+  const { messages, input, handleInputChange, handleSubmit, isLoading } =
+    useChat();
+
   return (
     <Card className="w-[500px]">
       <CardHeader>
