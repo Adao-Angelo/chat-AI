@@ -16,14 +16,15 @@
 
 ## 🛠️ **Technologies Used**
 
-| Technology        | Description                                                                                     | Image/Icon                                      |  
-|-------------------|-------------------------------------------------------------------------------------------------|-------------------------------------------------|  
-| **Next.js**       | A React framework for building fast and scalable web applications.                              | ![Next.js](https://img.icons8.com/ios/50/000000/next.js.png) |  
-| **TypeScript**    | A strongly-typed superset of JavaScript for better tooling and error handling.                   | ![TS](https://img.icons8.com/color/48/000000/typescript.png)  |  
-| **Vercel SDK**    | A platform for serverless deployment and AI integration, powering real-time responses.         | ![Vercel](https://img.icons8.com/ios/50/000000/vercel.png)  |  
-| **Gemini**        | Google's advanced AI model for semantic analysis and conversation context.                      | ![Gemini](https://img.icons8.com/color/48/000000/000000/gemini) |  
-| **Tailwind CSS**  | A utility-first CSS framework for building custom designs rapidly.                              | ![Tailwind](https://img.icons8.com/color/48/000000/000000/css) |  
-| **JWT**           | JSON Web Token for secure, token-based authentication in the application.                       | ![JWT](https://img.icons8.com/color/48/000000/000000/json)  |  
+| Technology        | Description                                                                                     | Image/Icon                                                                                   |  
+|-------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|  
+| **Next.js**       | A React framework for building fast and scalable web applications.                              | ![Next.js](https://img.shields.io/badge/-Next.Js-05122A?style=flat&logo=next.js)             |  
+| **TypeScript**    | A strongly-typed superset of JavaScript for better tooling and error handling.                   | ![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)    |  
+| **Vercel SDK**    | A platform for serverless deployment and AI integration, powering real-time responses.           | ![Vercel](https://img.shields.io/badge/-Vercel-05122A?style=flat&logo=vercel)               |  
+| **Gemini**        | Google's advanced AI model for semantic analysis and conversation context.                      | ![Gemini](https://img.shields.io/badge/-Gemini-05122A?style=flat&logo=google)               |  
+| **Tailwind CSS**  | A utility-first CSS framework for building custom designs rapidly.                              | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-05122A?style=flat&logo=tailwind-css) |  
+| **JWT**           | JSON Web Token for secure, token-based authentication in the application.                       | ![JWT](https://img.shields.io/badge/-JWT-05122A?style=flat&logo=jsonwebtokens)              |  
+
 
 ---
 
